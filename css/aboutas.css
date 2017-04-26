@@ -1,0 +1,40 @@
+#content{
+	width:100%
+}
+#top_t{
+	width:100%;
+	overflow:hidden;
+	margin-bottom:2%;
+}
+#top_t>#left_l{
+	float:left;
+	width:40%;
+	padding-left:10%;
+}
+#top_t>#left_l>p{
+	font-weight:bold;
+	line-height:35px;
+}
+#top_t>#right_r{
+    float:right;
+	width:40%;
+	padding-right:5.8%;
+}
+#bottom_b{
+    width:100%;
+}
+#bottom_b>#ppp{
+	width:80%;
+	height:50px;
+	line-height:50px;
+	background-color:#ff9800;
+	text-align:center;
+	color:#fff;
+	font-size:20px;
+	margin:0 auto;
+	font-weight:bold;
+}
+#bottom_b>img{
+	width:80%;
+	margin-left:10%;
+}

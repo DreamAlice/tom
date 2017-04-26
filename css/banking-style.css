@@ -1,0 +1,39 @@
+/*重新再本页面声明public*/
+/**{margin:0px; padding:0px;  }*/
+ul,li{list-style:none; margin:0px;}
+img{border:none; vertical-align:top;}
+a{text-decoration:none;}
+#header p.one{margin:29px 0px; margin-left:60px; font-size:29px; float:left;}
+/*#search{float: right;font-size: 14px;margin: 25px 150px;}
+#search p{margin:14px 10px 14px 0px;} */  
+/*自己的部分*/
+/*轮播图*/
+/*轮播图*/
+.banner{ margin:0px auto 0; position:relative;}
+.banner,#banner_list li img{ width:1158px; height:340px;}
+#banner_list{ overflow:hidden;}
+#banner_list li{ display:none;}
+#banner_btn{ position:absolute; right:3px; bottom:6px;}
+#banner_btn li{display:inline; text-indent:-999em; overflow:hidden; float:left;background:#ECECEC; width:16px; height:8px; margin-right:5px;  cursor:pointer;}
+#banner_btn .sel{ background:#C03;}
+/*banner部分*/
+#banner{width:1158px;height:399px; margin:0px auto;}
+#banner{width:1158px; height:399px; margin:0px auto;}
+/*内容区域*/
+/*大box*/
+#content{width:1158px; height:609px;/* background:#f00;*/ margin:0px auto; overflow:hidden;
+         zoom:1; font-size:16px; font-family:"微软雅黑";}
+/*左面的内容*/
+#content #left,#right{float:left;  margin-top: 50px;}
+#content #left p,#right p{margin:0px; padding:0px; line-height:50px; border-bottom:1px dashed #5d5d5d;}
+#left{margin-left:140px;}
+#right{width:500px; text-align:right;}
+
+#left a:link,#content a:visited{color:#222; }
+#left a:hover{color:#FF8F59; text-decoration:underline;}
+#right a:link,#right a:visited{color:#aaa;}
+
+#bottom{clear:both;overflow:hidden;zoom:1;}
+#bottom ul{overflow:hidden; zoom:1; width:400px; margin:0px auto;}
+#bottom ul li{ float:left; padding:10px 5px; }
+#bottom ul li a:link,#bottom ul li a:visited{color:#aaa;}

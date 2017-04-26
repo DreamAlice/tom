@@ -1,0 +1,36 @@
+*{
+	font-family:微软雅黑;
+}
+#content{
+	border:2px solid #ff9800;
+	overflow: auto;
+	width:86%;
+	margin:40px auto;
+
+}
+#ta{
+	width:500px;
+	margin:0 auto;
+
+}
+#ta caption{
+	font-family: 微软雅黑;
+	font-size:30px;
+	color:#ff9800;
+	margin-top: 30px;
+}
+#ta img{
+    width:200px;
+    margin:20px 20px 20px 0px;
+}
+#ta a{
+	display: block;
+	width:200px;
+	line-height: 60px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 18px;
+	font-family:微软雅黑;
+	text-align: center;
+	background: url(../img/public/4.jpg) no-repeat;
+}

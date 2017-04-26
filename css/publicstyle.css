@@ -1,0 +1,251 @@
+/*头部css样式开始*/
+*{font-family:"微软雅黑";}
+p.headtitle{
+font-size:35px;
+color:#fe7201;
+font-weight: bold;
+text-align: left;
+margin:25px;
+margin-left: 80px;
+}
+p.headtitle span{
+	font-size: 22px;
+}
+div.headinput{
+	height:40px;
+	width:394px;
+	margin-top: -80px;
+	margin-left: 650px;
+}
+div.headinput input{
+	height:95%;
+	width:350px;
+	border:1px solid #ff7200;
+	border-radius:4%;
+	padding: 0px;
+	font-size: 20px;
+}
+div p.psearch{
+	float:right;
+	height:100%;
+	width:40px;
+	line-height:40px;
+	background: #fe7201;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: -4px;
+}
+div p.psearch a{
+	text-decoration:none;
+	color:#eee;
+}
+div.register a{
+	text-decoration:none;
+	color: #fe7201;
+}
+
+div.register{
+font-size: 22px;
+color: #fe7201;
+width:200px;
+position: absolute;
+margin-top:-35px;
+margin-left: 1000px;
+}
+div.nav{
+	margin-top:30px;
+	width:100%;
+	height:40px;
+	background: #ff7200;
+}
+div.nav ul,div.footerfirstnav ul,div.footercenternav ul,div.two_dimension ul{
+list-style-type: none;
+
+}
+div.nav ul li,div.footerfirstnav ul li{
+	width:120px;
+	height:40px;
+	line-height: 40px;
+	float:left;
+}
+.smallnav,.trade,.agora{
+ 	visibility:hidden;
+	position: absolute;
+	width:370px;
+	height:130px;
+	background:rgba(60,78,95,0.8);
+	font-size: 18px;
+}
+.trade,.agora{
+	height:65px;
+}
+.agora{
+	width:250px;
+}
+.trade ul,.smallnav ul,.agora ul{
+	margin-top:15px;
+	margin-left: -40px;
+}
+li.hover div.smallnav,li.hover div.trade,li.hover div.agora{
+	visibility:visible;
+}
+
+ul.smallnav  li{
+	height:50px;
+}
+/*头部css样式结束*/
+/*--------------分割线----------------*/
+/*这里可以写content css  如果觉得乱就在建立一个css文件*/
+div.banner {
+	position: relative;
+	width:1200px;
+	height:480px;
+	overflow: hidden;
+}
+div.container{
+	position:absolute;
+	width:4800px;
+	height:480px;
+	float:left;
+	left:0px;
+}
+div.container  img{
+	width:1200px;
+	height:480px;
+}
+div.bannerSpan{
+	position:relative;
+	margin-left: 45%;
+	margin-top: -60px;
+}
+.bannerSpan span{
+	display: block;
+	float:left;
+	margin-left:10px;
+	width:20px;
+	height:20px;
+	border-radius:100%;
+	background: #eea570;
+	cursor:pointer;
+}
+span.spanbg{
+		background: #eee;
+}
+div.left{
+	width:300px;
+	text-align: left;
+	margin-top: 100px;
+	margin-left:100px;
+	line-height:28px;
+}
+div.left>div{
+	width:300px;
+	font-size: 24px;
+	height:50px;
+	border-bottom: 1px solid #ccc;
+	margin-left:0px;
+}
+div.left h3{
+	height:50px;
+	color:#ff7200;
+	margin-left:20px;
+	line-height: 50px;
+}
+div.left p{
+	margin-left:35px;
+}
+div.right{
+	margin-top:-700px;
+	width:800px;
+	height:1200px;
+	border:1px solid #222;
+	float:left;
+	margin-left: 480px;
+	text-align:left;
+	line-height:30px;
+}
+div.right table{
+	font-size: 22px;
+	margin-top: 80px;
+}
+div.right table input{
+	width:260px;
+	height:40px;
+}
+div.right table tr{
+	height:70px;
+}
+div.right td.ghbtn{
+	text-align: center;
+}
+div.right td.ghbtn input{
+	font-size: 20px;
+}
+
+
+/*--------------分割线----------------*/
+/*版权css样式开始*/
+div.footerfirstnav ul li
+{
+	width:150px; line-height: 100px;
+}
+div.nav ul li a,div.footerfirstnav ul li a{
+	display: block;
+	text-decoration: none;
+	color:#eee;
+	font-weight: bold;
+}
+div.footercenternav li.connectli span{
+	margin-left:30px;
+}
+div.footercenternav ul li a{
+text-decoration: none;
+color:#eee;
+font-weight: bold;	
+}
+div.nav ul li a:hover{
+	background: #b45100;
+}
+div.footerfirstnav,div.footercenternav{
+	width:1250px;
+	height:100px;
+	border-bottom: 2px solid #eee;
+}
+
+div.footercenternav{
+color:#eee;
+text-align: left;
+font-weight: bold;
+height:150px;
+}
+div.footercenternav li{
+	height:50px;
+	line-height:50px;
+}
+div.footercenternav p.ptitle{
+	position: absolute;
+	margin-left:0px;
+	margin-top: 15px;}
+div.footercenternav span{	margin-left:50px;}
+div.two_dimension{
+	width:600px;
+	margin-top: -120px;
+	margin-left: 720px;
+}
+div.two_dimension li{
+	margin-left:0px;
+	width:120px;
+	float:left;
+}
+div.two_dimension li span{
+font-size: 14px;
+margin-left:0px;
+}
+div.footercopy{
+	width:1250px;
+	height:100px;
+	text-align:left;
+	color:#eee;
+	font-weight: bold;
+}
+/*版权css样式结束

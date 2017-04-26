@@ -1,0 +1,42 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#content{
+	width:80%;
+	border:1px solid #ff9800;
+	margin:0 auto;
+}
+#top,#bot{
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	padding-top:3%;
+	padding-bottom:2%;
+	border-bottom:2px dashed #999;
+
+}
+#left1,#left2{
+	float:left;
+	margin-left:8%;
+	margin-right:2%;
+}
+#right1>#p1,#right2>#p1{
+	float:left;
+	width:60%;
+	margin-right:5%;
+	color:#5a5a5a;
+}
+#right1>#p2,#right2>#p2{
+	float:right;
+	margin-right:10%;
+	margin-top:2%;
+}
+#p3{
+	text-align:center;
+	height:100px;
+	line-height:100px;
+}
+#p3>a:hover{
+	color:#ff9800;
+}

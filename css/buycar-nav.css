@@ -1,0 +1,15 @@
+            *{margin:0px; padding:0px;}
+			a{text-decoration:none;}
+			img{border:none;}
+			#head{width:1345px; margin:0px auto; height:96px; line-height:96px;
+			      overflow:hidden; *zoom:1; }
+			#head p{float:left; display:inline; color:#ff7200;}
+			#head p a{color:#ff7200;}
+			#head div.input-box{  display:inline;width:437px; 
+                                float:left; *margin-top:25px;  margin-left:200px;
+			overflow:hidden; *zoom:1; position:relative;}
+			.input-box input{ width:380px; height:37px; /*height:38px\0;*/ line-height:37px;border:1px solid #ff7200;}
+			#sp{    position: absolute;top: 30px;*top:2px; color:#fff;left: 324px;
+                    text-align: center;width: 57px; height: 37px;line-height: 35px;
+                    background: #ff7200;}
+            #sp a:link,.sp a:visited{color:#fff;}

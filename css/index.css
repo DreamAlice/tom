@@ -1,0 +1,41 @@
+#banner{
+	width:80%;
+	/*为了防止变形height值在jq中单独设置*/
+	overflow:hidden;
+	margin:0 auto;
+	position:relative;
+	z-index: 0;
+}
+#banner-content{
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:1;
+}
+#num{
+	position: absolute;
+	/*left:0px;
+	top:170px; 此处在jq中动态设置*/
+	width: 60px;
+	height:20px;
+	z-index: 2;
+	color:#fff;
+}
+#num>span{
+	display: block;
+	float:left;
+	width: 20px;
+	height:20px;
+	line-height: 30px;
+	text-align:center;
+	border-radius:20px;
+	background:#aaa;
+}
+#num>span.n{
+	background:#aaa;
+}
+#num>span.m{
+	background:#ff9800;
+}
+
+

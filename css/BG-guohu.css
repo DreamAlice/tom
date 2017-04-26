@@ -1,0 +1,71 @@
+#content{
+	width:80%;
+	position: relative;
+	margin:0 auto;
+}
+#left,#right{
+	margin:0;
+	padding: 0;
+}
+#left{
+	float: left;
+	width:400px;
+	border-right:1px solid #ccc;
+	padding: 0 20px;
+
+}
+#left h1{
+   font-weight:bold;
+}
+#left h3{
+	color:orange;
+	font-size: 22px;
+	margin-left:18px;
+}
+#left p{
+	margin-left:40px;
+	font-size:14px;
+}
+#right{
+	/*width:50%;*/
+	/*position:absolute;*/
+	float:left;
+	/*right:0px;*/
+	padding: 0 20px;
+	margin-left: 20px;
+	top:-21px;
+	top:-22px\0;  
+}
+#right h1{
+	text-align: center;
+}
+#right table{
+	/*border:1px;*/
+	
+	height:500px;
+	margin:20px auto;
+	text-align: center;
+	background:#fff;
+	font-size:18px;
+}
+#right table input{
+	height:25px;
+}
+#right table tr td span{
+	vertical-align: bottom;
+	font-size:12px;
+	line-height: 25px;
+}
+#right table span{
+	color:red;
+}
+.r{
+	color:green;
+}
+.bgwrong{
+	background:red;
+}
+#right #btn1{
+  height:30px;
+  background-color: #ff0;
+}

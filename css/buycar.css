@@ -1,0 +1,63 @@
+/*重新再本页面声明public*/
+*{margin:0px; padding:0px; font-family:"微软雅黑"; }
+ul,li{list-style:none; margin:0px;}
+img{border:none; vertical-align:top;}
+a{text-decoration:none;}
+#header p.one{margin:29px 0px; margin-left:60px; font-size:29px; float:left;}
+#search{float: right;font-size: 14px;margin: 25px 150px;}
+#search p{margin:14px 10px 14px 0px;} 
+#hidden-ul{padding:3px; margin-top:0px;}
+#nav>ul>li>ul{margin-top:0px;}
+/*自己的部分*/
+/*轮播图*/
+/*轮播图*/
+.banner{ margin:0px auto 0; position:relative;}
+.banner,#banner_list li img{ width:1158px; height:340px;}
+#banner_list{ overflow:hidden;}
+#banner_list li{ display:none;}
+#banner_btn{ position:absolute; right:3px; bottom:6px;}
+#banner_btn li{display:inline; text-indent:-999em; overflow:hidden; float:left;background:#ECECEC; width:16px; height:8px; margin-right:5px;  cursor:pointer;}
+#banner_btn .sel{ background:#C03;}
+/*banner部分*/
+#banner{width:1158px;height:399px; margin:0px auto;}
+#banner{width:1158px; height:399px; margin:0px auto;}
+/*content部分*/
+#content{width:1158px; height:982px;  margin:0px auto; /*background:#ccc;*/ }
+
+/*布局部分*/
+#top-list{background:url(../img/圆角背景.jpg) no-repeat center top; 
+          width:1080px; height:285px; _height:315px; overflow:hidden; *zoom:1; margin:0px auto; background:#eeeeee; margin-top:33px;}
+#cen-pro{width:1080px; height:736px;_height:690px; margin:0px auto; clear:both; /*background:#9d9d9d*/}
+
+/*list部分*/
+#one-ul{overflow:hidden; *zoom:1; margin-top:30px; }
+#content ul{clear:both; margin-left:34px; }
+#content ul li{float:left; padding:14px 10px;}
+#content ul li a{color:#232323; font-size:14px; padding:2px 4px; }
+#content ul li a:hover{color:#fb9225;}
+#content ul input{width:41px;}
+
+/*content部分*/
+
+/*产品部分css样式层叠*/
+.cen-box{width:265px;height:268px;_height:278px; border:1px solid #c2c2c2; border-radius:3px; overflow:hidden; *zoom:1;
+         float:left;     margin-right: 4px; margin-bottom:4px;}
+.cen-boxsp{margin-right:0px;}
+.pro-top,.pro-top img{width:265px; height:180px; position:relative; overflow:hidden;zoom:1;}
+.pro-top p{color:#fff;  text-align:center; font-size:14px;width:265px; height:30px; background:#ff9800;line-height:30px;
+           position:absolute; top:180px;  left:0px; border:1px solid ##ff9800; border-radius:3px;}
+
+.pro-bot{overflow:hidden; *zoom:1;width:265px; height:84px; padding:0px 10px; _padding-right:-0px; _padding-left:0px; _margin-left:5px; overflow:hidden;}
+.pro-bot p{width:247px; line-height:26px; color:#383c35; font-size:15px; margin-top:6px;}
+.pro-bot p a{color:#383c35}
+.pro-bot p a:hover{color:#fb9225;}
+.pro-bot span{font-size:14px;}
+.pro-bot .one-span{padding:0px 14px; color:#5d5d5d; }
+.pro-bot .sp-span{padding-left:0px;}
+.pro-bot div{line-height:32px; height:32px; _line-height:25px;overflow:hidden; *zoom:1;}
+.pro-bot div h4{float:left; color:#fb9225;}
+
+/*选项卡*/
+#tabs{width:1080px; overflow:hidden;padding:40px 0px;}
+#tabs ul{overflow: hidden;width: 430px;margin: 0px auto;}
+#tabs ul li{border:1px solid #ccc; padding: 1px 6px; margin-right:10px;}

@@ -1,0 +1,27 @@
+#content{
+	width: 80%;
+	margin: 0 auto;
+	font-family: "微软雅黑";
+}
+#content .us{
+	width: 600px;
+	font-size: 30px;
+	line-height: 30px;
+	border-bottom: solid 1px #ccc; 
+	padding-bottom: 20px;
+}
+#content tr{
+	text-align: center;
+	line-height: 30px;
+}
+#content .l{
+	text-align: left;
+	padding-left: 10px;
+}
+#content li{
+	line-height: 30px;
+}
+#content h3{
+	color: #f72;
+	font-size: 24px;
+}

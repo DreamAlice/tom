@@ -1,0 +1,44 @@
+#content{
+	position:relative;
+	width:80%;
+	height:auto;
+	background-color: #ccc;
+	margin:0 auto;
+}
+#content .ggao{
+	background:#fff;
+	color:orange;
+	padding:20px;
+	/*margin:20px 0;*/
+	font-size:18px;
+}
+#msg1{
+	border-bottom:3px solid #fff;
+	text-align:center;
+}
+#msg1>p{
+	font-size:12px;
+	line-height:2px;
+}
+#msg2{
+	font-size:14px;
+	line-height:18px;
+	font-family:"新宋" "宋体" serif;
+	/*width:80%;*/
+	height:180px;
+	border-bottom:3px solid #fff;
+}
+#msg2>p{
+	text-indent: 2em;
+    margin:30px 20px;
+}
+#msg3{
+	height:80px;
+	margin-bottom: 20px;
+	font-size:14px;
+	font-family:"新宋" "宋体" serif;
+}
+#msg3>p{
+	margin:30px 20px;
+	line-height: 10px;
+}

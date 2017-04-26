@@ -1,0 +1,64 @@
+/**{margin:0px; padding:0px; }*/
+ul,li{list-style:none; margin:0px;}
+img{border:none; vertical-align:top;}
+a{text-decoration:none;}
+#header p.one{margin:29px 0px; margin-left:60px; font-size:29px; float:left;}
+/*#search{    float: right;
+    font-size: 14px;
+    margin: 25px 150px;}
+#search p{margin:14px 10px 14px 0px;}   */
+#banner{width:1158px;height:399px; margin:0px auto;}
+#content{font-size:16px; font-family:"微软雅黑"; 
+         width:1158px; height:1020px; +height:1020px; /*background:rgba(255,0,0,0.3); +background:#0f0;*/
+         margin:0px auto;}
+         
+/*轮播图*/
+.banner{ margin:0px auto 0; position:relative; font-size:14px;}
+.banner,#banner_list li img{ width:1120px; height:350px;}
+#banner_list{ overflow:hidden;}
+#banner_list li{ display:none;}
+#banner_btn{ position:absolute; right:3px; bottom:6px;}
+#banner_btn li{display:inline; text-indent:-999em; overflow:hidden; float:left;background:#ECECEC; width:16px; height:8px; margin-right:5px;  cursor:pointer;}
+#banner_btn .sel{ background:#C03;}
+#search-banner{width:390px; height:285px;
+               position: absolute;top: 29px;left: 695px;
+               background:rgba(190,190,190,0.6);+background:#4e6776;}
+#search-banner h3 {font-size:14px;    line-height: 58px;     margin: 0px auto;
+    width: 185px; _width:200px;}
+#search-banner h3 .one-span1{margin-right:20px;}
+#search-banner h3 span,p.sp-p span{color:#ff9800; font-size:22px;}
+#search-banner div{width:330px; height:40px; border:1px solid #000; margin:0px auto;
+                   background:url(../img/sellcar/电话.jpg) no-repeat 6px 6px;
+                   +background:url(../img/sellcar/电话.jpg) no-repeat 10px 10px; background-size:35px;}
+#search-banner div p input{    width: 280px;height: 30px;line-height:30px; padding-left:5px; margin-top:5px;float: right;
+                   background:rgba(190,190,190,0.2);+background:#4e6776; border:none; border-left:1px solid #000;}
+#search-banner p.sp-p{margin: 20px 78px; font-size:14px;}
+
+#search-banner p.button-p{width: 152px;margin: 35px auto;height: 40px;color:#fff;
+                          line-height: 40px;text-align: center;background:#ff9800;}
+/*内容的第一部分*/
+#top-list{width:1128px; height:146px; /*background:#f00;*/ margin:0px auto; padding-top:70px;+padding-top:0px;+margin-top:70px; margin-bottom:47px;}
+#top-list ul{width:1126px; margin:0px auto;margin-left:26px;_margin-left:40px;}
+#top-list ul li{width:230px; height:134px;/* background:#ccc;*/}
+#top-list ul li h3{font-weight:normal; }
+#top-list ul li p{color:#5d5d5d;}
+/*买车指南*/
+#bac{ width:911px; margin:0px auto; margin-bottom:61px;}
+/*下部分*/
+#con-cen{width:962px; height:512px; /*overflow:auto;*/ zoom:1; /*background:#0f0; +background:#f00;*/margin:0px auto;}
+#con-cen ul{width:960px; margin:0px auto;  overflow:hidden; zoom:1;}
+#con-cen ul li{width:467px; height:215px; border:1px solid #ccc; border-radius:5px;
+               float:left; margin-bottom:22px; +margin-bottom:22px;}
+li.mar-rig{margin-right:22px;}
+
+#con-cen li h3{color:#ff7200; font-size:20px; font-weight:normal; margin:15px 0px 15px 10px;}
+#con-cen li p{font-size:14px; margin-left:20px; line-height:30px;}
+#con-cen li p a:link,#con-cen li p a:visited{color:#5d5d5d;}
+#con-cen li p a:hover{ color:#FF8F59;}
+	
+/*con-bot*/
+#con-bot{width:1158px; text-align:center;}
+#con-bot p{width:250px;height:56px; background:#ff7200; margin:0px auto;
+           font-size:25px; line-height:56px; border:1px solid #ff7200; border-radius:5px;
+           color:#fff;}
+#con-bot p a{color:#fff;}

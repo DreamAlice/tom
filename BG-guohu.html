@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>二手车首页</title>
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js">
+    </script>
+    <script type="text/javascript" src="js/public.js">
+    </script>
+    <script type="text/javascript" src="js/BG-guohu.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+     <link rel="stylesheet" type="text/css" href="css/public-style.css">
+     <link rel="stylesheet" type="text/css" href="css/index.css">
+     <link rel="stylesheet" type="text/css" href="css/BG-guohu.css">
+
+</head>
+<body>
+	<div id="header">
+		<p id="hp">秦皇岛二手车交易市场<span>qhdershouche.com</span></p>
+		<div id="search">
+			<p><input type="text" value="" name=""><span>搜索</span></p><p id="sp"> <a href="#">登录</a>|<a href="#">注册</a></p>
+		</div>
+	</div>
+	<div id="nav">
+		<ul id="nul">
+			<li><a href="index.html">首页</a></li>
+			<li><a href="aboutas.html">关于我们</a></li>
+			<li><a href="">新闻资讯</a></li>
+			<li><a href="">买车卖车</a>
+                <ul>
+                	<li><a href="buycar.html">买车</a></li>
+                	<li><a href="sellcar.html">卖车</a></li>
+                	<li><a href="APPload.html">APP下载</a></li>
+                </ul>
+			</li>
+			<li><a href="">优质商家</a></li>
+			<li><a href="">服务与管理</a>
+                <ul>
+                	<li><a href="BG-guohu.html">过户</a></li>
+                	<li><a href="banking.html">金融</a></li>
+                	<li><a href="Insurance.html">保险</a></li>
+                	<li><a href="">车位出租</a></li>
+                	<li><a href="BG-carshow.html">车辆展示</a></li>
+                	<li><a href="">广告位出租</a></li>
+                </ul>
+			</li>
+			<li><a href="BG-shichangbaogao.html">市场公告</a>
+                <ul>
+                	<li><a href="sczx.html">市场咨询</a></li>
+                	<li><a href="market.html">市场报告</a></li>
+                </ul>
+			</li>
+			<li><a href="connect us.html">联系我们</a></li>
+		</ul>
+		<span><a href="APPload.html">APP下载</a></span>
+	</div>
+	<div id="banner">
+	<div id="num"><span class="m"></span><span></span><span></span></div>
+	   <div id="banner-content"><img src="img/index/1.jpg">
+	   <img src="img/index/2.jpg"><img src="img/index/3.jpg"></div>
+	</div>
+	<div id="content">
+     <div id="left">
+       <h1>买车过户流程</h1>
+       <hr>
+       <h3>过户需要的手续</h3>
+       <p>卖方:车主身份证、车辆登记证、车辆行驶本、购车原始发票(如果之前有过户历史需要提供过户票)。卖方是单位则需要组织机构代码证书原件及公章。</p>
+       <p>买方:身份证，外地人上当地牌照另需有效期内暂住证(部分城市改用居住证)，买方是单位则需要组织机构代码证书及公章。</p>
+       <p>双方:签订二手车买卖合同，带齐以上所有手续，到二手车过户大厅办理。</p>
+       <h3>二手车过户交易流程</h3>
+       <p>1.检查车辆并填写检查记录表</p>
+       <p>2.领取照片</p>
+       <p>3.取号机取号</p>
+       <p>4.转移受理</p>
+       <p>5.领取回执单</p>
+       <p>6.收费</p>
+       <p>7.选号</p>
+       <p>8.领行驶证、登记证、年检标志</p>
+       <p>9.领取号牌</p>
+     </div>
+     <div id="right">
+       <h1>二手车过户需填写手续</h1>
+       <hr>
+       <form name="form1" id="form1">
+       <table>
+        <tr>
+            <td colspan="2" align="center" style="font-size:20px;font-weight:bold; ">原车主信息</td>
+          </tr>
+          <tr>
+             <td>原车主姓名</td>
+             <td width="310px" align="left"><input type="text" id="nameid" class="nameid" ><span id="namemsg" class="namemsg" >*</span></td>
+          </tr>
+          <tr>
+             <td>车主身份证号码</td>
+             <td align="left"><input type="text" class="idcard" ><span id="idcardmsg" class="idcardmsg">*</span></td>
+          </tr>
+          <tr>
+            <td>原车车牌照</td>
+            <td align="left"><input type="text"  class="numsid" value="冀C-xxxxx" ><span id="numsmsg" class="numsmsg">*</span></td>
+          </tr>
+          <tr>
+            <td>车架号</td>
+            <td align="left"><input type="text"  class="carid" value="" ><span id="carmsg" class="carmsg">*</span></td>
+          </tr>
+          <tr>
+             <td>购车地点</td>
+             <td align="left"><select id="s_province" name="s_province" value="省">
+              <option value="河北省">河北省</option>
+             </select>  
+    <select id="s_city" name="s_city" value="市">
+              <option value="秦皇岛市">秦皇岛市</option>
+    </select>  
+    <select id="s_county" name="s_county" value="县">
+              <option value="海港区">海港区</option>
+              <option value="山海关区">山海关区</option>
+              <option value="北戴河区">北戴河区</option>
+    </select></td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td colspan="2" text-align="center" style="font-size:20px;font-weight:bold;">新车主信息</td>
+          </tr>
+          <tr>
+             <td>新车主姓名</td>
+             <td align="left"><input type="text" id="newnameid" class="newnameid"><span id="newnamemsg" class="newnamemsg">*</span></td>
+          </tr>
+          <tr>
+             <td>车主身份证号码</td>
+             <td align="left"><input type="text"  class="nidcard"><span id="nidcardmsg" class="nidcardmsg">*</span></td>
+          </tr>
+          <tr>
+            <td>新挂车牌照</td>
+            <td align="left"><input type="text" value="冀C-xxxxx" class="nnums"><span id="nnumsmsg" class="nnumsmsg">*</span></td>
+          </tr>
+          <tr>
+            <td>合同编号</td>
+            <td align="left"><input type="text" class="hetongid"><span id="hetongmsg" class="hetongmsg">*</span></td>
+          </tr>
+          <tr>
+             <td colspan="2" align="left">原车主签字:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="previd" class="previd"><span id="prevmsg" class="prevmsg">*</span></td>
+           </tr>
+           <tr>
+             <td colspan="2" align="left">新车主签字:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="nextid" class="nextid"><span id="nextmsg" class="nextmsg">*</span></td>
+             </tr>
+          </tr>
+          <tr>
+            <td colspan="2" align="center"><input type="submit" id="btn1" value="是否变更"></td>
+            <!-- <td><input type="reset" id="btn2" value="取消"></td> -->
+          </tr>
+       </table>
+       </form>
+    </div>
+    </div>
+	<div id="footer">
+		<a href="">关于我们</a>
+		<a href="">新闻资讯</a>
+		<a href="">买车卖车</a>
+		<a href="">优质商家</a>
+		<a href="">服务与管理</a>
+        <a href="">市场公告</a>
+        <p id="line1"></p>
+        <div id="footer-left">
+        	<p>
+        	<span>优质商家：</span>
+             <a href="#">商家名称</a>
+             <a href="#">商家名称</a>
+             <a href="#">商家名称</a>
+             <a href="#">商家名称</a>
+             <a href="#">商家名称</a>
+             <a href="#">商家名称</a><br>
+             <span></span>
+             <a href="#">商家名称</a>
+             <a href="#">商家名称</a>
+             <a href="#">商家名称</a>
+             <a href="#">商家名称</a>
+             <a href="#">商家名称</a>
+             <a href="#">商家名称</a>
+        	</p>
+        	<p>
+        	<span>友情链接：</span>
+        	<a href="#">*****链接</a>
+        	<a href="#">*****链接</a>
+        	<a href="#">*****链接</a>
+        	<a href="#">*****链接</a>
+        	<a href="#">*****链接</a>
+        	<a href="#">*****链接</a>
+        	</p>
+        </div>
+        <div id="footer-right">
+        	<div><img src="img/public/1.jpg"><span>APP下载<br><span class="ss">车源更新绝不错过</span></span></div>
+        	<div><img src="img/public/1.jpg"><span>微信公众号<br><span class="ss">资讯动态及时掌握</span></span></div>
+        </div>
+         <p id="null"></p>
+        <p id="line2"></p>
+        <p>Copyright©2015-2016二手车市场秦皇岛All Rights Reserved版权所有 秦皇岛二手车交易市场</p>
+        <p>营业执照冀ICP备*************号-2&nbsp;&nbsp;冀公安备************号</p>
+        <p>地址：***************&nbsp;&nbsp;&nbsp;电话：****************</p>
+	</div>
+	<script type="text/javascript" src="js/index.js">
+	</script>
+</body>
+</html>

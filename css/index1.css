@@ -1,0 +1,221 @@
+*{
+	font-family: 微软雅黑;
+}
+#banner-left{
+	width:320px;
+	float: left;
+	border:1px solid #eee;
+	margin-left:55px ;
+	padding: 5px;
+	text-align: center;
+}
+#banner-left h3{
+	text-align: left;
+	width:280px;
+	border-bottom:1px solid #eee ;
+	margin-left:40px ;
+}
+#banner-left p a:visited,#banner-left p a:link{
+	text-decoration: none;
+	color:#000;
+	font-size: 14px;
+}
+#banner-left p a:hover{
+	text-decoration:underline;
+}
+#banner-left p span{
+	color:#ff9800;
+}
+#banner-outer{
+	overflow: auto;
+	width:920px;
+}
+#banner-outer ul{
+	padding:0;
+	list-style: none;
+}
+#banner-outer ul li{
+	float: left;
+	color:#ff9800;
+	font-weight:bold;
+	line-height:20px;
+	width:300px;
+	height:80px;
+	text-align: center;
+	border:#eee 1px solid;
+	margin-left:2px;
+	padding-top: 10px;
+}
+#banner{
+	width:920px;
+	/*为了防止变形height值在jq中单独设置*/
+	overflow:hidden;
+	margin:0 auto;
+	position:relative;
+	z-index: 0;
+	float: right;
+	/*margin-right:40px ;*/
+}
+#banner-content{
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:1;
+}
+#num{
+	position: absolute;
+	/*left:0px;
+	top:170px; 此处在jq中动态设置*/
+	width: 60px;
+	height:20px;
+	z-index: 2;
+	color:#fff;
+}
+#num span{
+	display: block;
+	float:left;
+	width: 20px;
+	height:20px;
+	line-height: 30px;
+	text-align:center;
+	border-radius:20px;
+	background:#aaa;
+}
+#num span.n{
+	background:#aaa;
+}
+#num span.m{
+	background:#ff9800;
+}
+#content{
+	clear:both;
+	width:92%;
+	margin: 0 auto;
+	overflow: auto;
+}
+#menup{
+	border-bottom: 1px solid #aaa;
+	margin-top:20px;
+	margin-bottom:8px;
+	padding-bottom: 8px;
+}
+#content p span{
+	font-family:黑体;
+	font-size:15px;
+	margin-right:10px;
+}
+#cu{
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+	overflow: auto;
+	width:1100px;
+	margin:0 auto;
+}
+#cu li{
+	float: left;
+	width: 250px;
+	border:1px #eee solid;
+	margin-left: 8px;
+}
+#cu li img{
+	margin: 0px;
+	padding:0px;
+	width:300px;
+}
+#cu span{
+	margin-left: 5px;
+}
+.lip{
+	position: absolute;
+	left:-10px;
+	top: 30px;
+	background: #ff9800;
+	line-height:30px;
+	width:100px;
+	height: 30px;
+	text-align: center;
+	margin:0px;
+	padding: 0px;
+	color:#fff;
+}
+.more{
+	float: right;
+	margin-top:10px;
+	color:#ff9800;
+}
+#cleft{
+	position: relative;
+	float: left;
+	width:436px;
+	border: #eee solid 1px;
+	padding-bottom:40px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#cleft img{
+	margin:0px;padding: 0px;
+	margin-bottom:10px;
+}
+#cleft span{
+	border:0px;
+	font-size: 13px;
+	margin-left: 15px;
+}
+#cleft p{
+	position: absolute;
+	left:20px;
+	top:-15px;
+	color:#fff;
+	background: #ff9800;
+	line-height:30px;
+	width:100px;
+	height: 30px;
+	text-align: center;
+	margin:0px;
+	padding: 0px;
+}
+#cright{
+	position: relative;
+	float:left;
+	margin-top:20px;
+	width: 700px;
+	
+	margin-left: 50px;
+}
+
+#cright img{
+	vertical-align: middle;
+	margin:0px;padding: 0px;
+}
+#cright ul{
+	list-style-type: none;
+	padding: 0px;
+	margin:0px;
+}
+#cright ul li{
+	position: relative;
+	border: #eee solid 1px;
+	margin-bottom: 10px;
+}
+.cp{
+	float: right;
+	width:300px;
+	border: 0px;
+	margin-right:40px;
+	margin-top: 40px;
+}
+
+.mm{
+	display: block;
+	float: right;
+	margin-right: 10px;
+	color:#ff9800;
+}
+.nn{
+	display: block;
+	font-size: 12px;
+    margin:15px 0px;
+}
+
+
